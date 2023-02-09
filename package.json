@@ -1,6 +1,6 @@
 {
   "name": "reactjs-hello-world-v1-nodepackage",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
@@ -44,5 +44,16 @@
     "@babel/preset-env": "^7.20.2",
     "cross-env": "^7.0.3",
     "del-cli": "^5.0.0"
+  },
+  "description": "## Refrence - https://levelup.gitconnected.com/publish-react-components-as-an-npm-package-7a671a2fb7f",
+  "main": "babelBuild/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikram2327/reactjs-hello-world-v1-nodepacakge.git"
+  },
+  "author": "Vikram Pratap Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vikram2327/reactjs-hello-world-v1-nodepacakge/issues"
   }
 }
