@@ -1,7 +1,7 @@
 {
   "name": "reactjs-hello-world-v1-nodepackage",
   "version": "1.0.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.16.5",
@@ -47,8 +47,6 @@
   },
   "description": "## Refrence - https://levelup.gitconnected.com/publish-react-components-as-an-npm-package-7a671a2fb7f",
   "main": "babelBuild/index.js",
-  "module": "babelBuild/index.js",
-  "files": [ "babelBuild", "README.md" ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vikram2327/reactjs-hello-world-v1-nodepacakge.git"
