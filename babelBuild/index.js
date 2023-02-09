@@ -15,6 +15,6 @@ Object.defineProperty(exports, "HelloWorld", {
     return _HelloWorld.default;
   }
 });
-var _HelloWorld = _interopRequireDefault(require("./HelloWorld.js"));
-var _GoodMorning = _interopRequireDefault(require("./GoodMorning.js"));
+var _HelloWorld = _interopRequireDefault(require("./HelloWorld"));
+var _GoodMorning = _interopRequireDefault(require("./GoodMorning"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }

@@ -1,2 +1,2 @@
-export {default as HelloWorld} from "./HelloWorld.js";
-export {default as GoodMorning} from "./GoodMorning.js";
+export {default as HelloWorld} from "./HelloWorld";
+export {default as GoodMorning} from "./GoodMorning";
