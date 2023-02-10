@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { GoodMorning, HelloWorld } from './lib';
+import { GoodMorning, HelloIndia, HelloWorld } from './lib';
 
 // console.debug("Hello",<HelloWorld/>)
 function App() {
@@ -9,6 +9,7 @@ function App() {
       hi
       <HelloWorld/>
       <GoodMorning/>
+      <HelloIndia/>
       {/* <GoodMorning/> */}
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
