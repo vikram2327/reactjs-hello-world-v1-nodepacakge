@@ -44,16 +44,24 @@ Make file babel.config.json
 ```
 
 ## Configure pacakge.json to compile & build
+
 Add cmd in script key of package.json
+
 ```
 "babel-build": "npm run delete && cross-env NODE_ENV=production babel src/lib --out-dir babelBuild --copy-files",
 ```
 
-## Intialize repository for package 
+## Intialize repository for package
+
 ```
 npm init
 ```
 
+## Create build code which is used by Other React Project
+
+```
+npm run babel-build
+```
 
 ## Refrence
 
