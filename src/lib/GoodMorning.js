@@ -1,9 +1,8 @@
-import React from 'react'
+import React, { useState } from "react";
 
 function GoodMorning() {
-  return (
-    <div>GoodMorning V1 NodePackage</div>
-  )
+  const [name, setName] = useState("Vikram");
+  return <div>GoodMorning V1 NodePackage With {name}</div>;
 }
 
 export default GoodMorning;
