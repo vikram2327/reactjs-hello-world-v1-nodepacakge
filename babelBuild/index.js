@@ -15,6 +15,12 @@ Object.defineProperty(exports, "HelloIndia", {
     return _HelloIndia.default;
   }
 });
+Object.defineProperty(exports, "HelloVikramWithState", {
+  enumerable: true,
+  get: function get() {
+    return _HelloVikramWithState.default;
+  }
+});
 Object.defineProperty(exports, "HelloWorld", {
   enumerable: true,
   get: function get() {
@@ -24,4 +30,5 @@ Object.defineProperty(exports, "HelloWorld", {
 var _HelloWorld = _interopRequireDefault(require("./HelloWorld"));
 var _HelloIndia = _interopRequireDefault(require("./HelloIndia"));
 var _GoodMorning = _interopRequireDefault(require("./GoodMorning"));
+var _HelloVikramWithState = _interopRequireDefault(require("./HelloVikramWithState"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
