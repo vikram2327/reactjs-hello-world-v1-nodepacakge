@@ -63,6 +63,10 @@ npm init
 npm run babel-build
 ```
 
+## Use This Package
+
+npm install git+https://github.com/vikram2327/reactjs-hello-world-v1-nodepacakge.git
+
 ## Refrence
 
 - https://levelup.gitconnected.com/publish-react-components-as-an-npm-package-7a671a2fb7f
